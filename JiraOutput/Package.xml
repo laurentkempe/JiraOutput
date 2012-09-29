@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO: Replace the ID for the package below with your own Package GUID.-->
+<!-- TODO: If your accessory uses .NET 2.0 include dotnet="2" -->
+<!-- TODO: If your accessory uses .NET 3.0 include dotnet="3" -->
+<package id="{BC12E5B0-EF60-46B7-B002-FAAD356F5AEC}" code="JiraOutput.dll" dotnet="3.5">
+  <version>1.0.0</version>
+  <title>Jira Output</title>
+  <icon>Jira.ico</icon>
+  <description>Send your screen captures directly to Jira</description>
+  <author>Laurent Kempé</author>
+  <!-- TODO: Eliminate the options tag if your accessory should not           -->
+  <!--       display an options menu from within the SnagIt Accessory Manager -->
+  <options/>
+  <dependencies>
+    <application name="snagit" minversion="8.2.3"/>
+  </dependencies>
+  <components>
+    <!-- TODO: Replace the ID for the SampleCSharpOutput component below with your own Output GUID .-->
+    <!-- TODO: If your accessory uses .NET 2.0 include dotnet="2" -->
+    <!-- TODO: If your accessory uses .NET 3.0 include dotnet="3" -->
+    <component name="JiraOutput" id="{05BD448D-BFC3-4CCC-8601-50DE6CC36BB2}">
+      <!-- The GUID below stays the same -->
+      <category name="Output" id="{1f75bd16-21a8-11db-9622-00e08161165f}"/>
+    </component>
+  </components>
+</package>
